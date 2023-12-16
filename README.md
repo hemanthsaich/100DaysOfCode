@@ -1,6 +1,6 @@
 # 100 Days of Code - The Complete Python Pro Bootcamp for 2023
 
-![image](https://github.com/hemanthsaich/100-Days-of-Code/assets/91429511/e89d4b01-cd92-41fa-b8eb-e98a92d1be5f)
+![image](https://github.com/hemanthsaich/100-Days-of-Code/assets/91429511/643a6f8b-ccd6-4c49-a709-40c436d5c5b1)
 
 My solutions for the projects included in the [Python course by Dr. Angela Yu](https://www.udemy.com/course/100-days-of-code/).
 

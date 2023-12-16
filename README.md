@@ -61,3 +61,12 @@ My solutions for the projects included in the [Python course by Dr. Angela Yu](h
   
 ### Day 18 - Turtle & the Graphical User Interface (GUI)
 * [Solution: Hirst Painting](day18/.)
+
+### Day 19 - Instances, State and Higher Order Functions
+* [Solution: Turtle Race](day19/.)
+
+### Day 20 - Build the Snake Game Part 1: Animation & Coordinates
+* [Solution: Snake Game Part 1](day20/.)
+
+### Day 21 - Build the Snake Game Part 2: Inheritance & List Slicing
+* [Solution: Snake Game Part 2](day21/.)

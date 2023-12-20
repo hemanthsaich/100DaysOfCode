@@ -70,3 +70,12 @@ My solutions for the projects included in the [Python course by Dr. Angela Yu](h
 
 ### Day 21 - Build the Snake Game Part 2: Inheritance & List Slicing
 * [Solution: Snake Game Part 2](day21/.)
+
+### Day 22 - Build Pong: The Famous Arcade Game
+* [Solution: Pong](day22/.)
+
+### Day 23 - The Turtle Crossing Capstone Project
+* [Solution: Turtle Crossing](day23/.)
+
+### Day 24 - Files, Directories and Paths
+* [Solution: Mail Merge](day24/.)

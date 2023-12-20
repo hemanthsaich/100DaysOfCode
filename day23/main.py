@@ -1,46 +1,41 @@
-# Turtle Crossing
+# Turtle Crossing Game
 
-import turtle
 import time
-
+from turtle import Screen
 from player import Player
 from car_manager import CarManager
 from scoreboard import Scoreboard
 
-
-# screen setup
-screen = turtle.Screen()
-screen.setup(width=800, height=600)
+screen = Screen()
+screen.setup(width=600, height=600)
 screen.tracer(0)
 
-# player, etc. setup
 player = Player()
 car_manager = CarManager()
 scoreboard = Scoreboard()
 
-# controls setup
 screen.listen()
-screen.onkey(player.move_up, "Up")
+screen.onkey(player.go_up, "Up")
 
-game_is_over = False
-while not game_is_over:
+game_is_on = True
+while game_is_on:
     time.sleep(0.1)
     screen.update()
-    car_manager.move_cars()
 
-    # check for level up condition
-    if player.reached_finish():
+    car_manager.create_car()
+    car_manager.move()
+
+    # Detect collision with cars
+    for car in car_manager.all_cars:
+        if car.distance(player) < 20:
+            game_is_on = False
+            scoreboard.gameover()
+
+    # Detect successful crossing
+    if player.is_at_finish_line():
+        player.go_to_start()
+        car_manager.level_up()
         scoreboard.increase_level()
-        car_manager.increase_speed()
-        player.reset_position()
 
-    # detect collision
-    for car in car_manager.cars:
-        if abs(player.xcor() - car.xcor()) < 20 and abs(player.ycor() - car.ycor()) < 15:
-            game_is_over = True
 
-# display the game over message
-scoreboard.game_over()
-
-# wait for click before closing the window
 screen.exitonclick()

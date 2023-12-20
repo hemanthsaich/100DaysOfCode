@@ -1,45 +1,31 @@
-import turtle
+from turtle import Turtle
 import random
-
 
 COLORS = ["red", "orange", "yellow", "green", "blue", "purple"]
 STARTING_MOVE_DISTANCE = 5
 MOVE_INCREMENT = 10
-SCREEN_WIDTH = 800
-SCREEN_HEIGHT = 600
 
 
 class CarManager:
+
     def __init__(self):
-        # store the cars in a list
-        self.cars = []
-        # spawn cars just off the right edge of the screen
-        self.x_start = int(SCREEN_WIDTH / 2 + 40)
-        # width of the "road"
-        self.y_min = int(SCREEN_HEIGHT / -2 + 60)
-        self.y_max = int(SCREEN_HEIGHT / 2 - 60)
-        self.move_distance = STARTING_MOVE_DISTANCE
+        self.all_cars = []
+        self.car_speed = STARTING_MOVE_DISTANCE
 
-    def move_cars(self):
-        """Moves all cars and randomly spawns an additional one."""
-        # 1 in 6 chance to spawn a new car, anything other than 0 will be "truthy"
-        if not random.randint(0, 5):
-            self.spawn_car()
-        for car in self.cars:
-            car.forward(self.move_distance)
+    def create_car(self):
+        random_chance = random.randint(1, 6)
+        if random_chance == 1:
+            new_car = Turtle("square")
+            new_car.shapesize(stretch_wid=1, stretch_len=2)
+            new_car.penup()
+            new_car.color(random.choice(COLORS))
+            random_y = random.randint(-250, 250)
+            new_car.goto(300, random_y)
+            self.all_cars.append(new_car)
 
-    def increase_speed(self):
-        """Increases the movement distance if the cars."""
-        self.move_distance += MOVE_INCREMENT
+    def move(self):
+        for car in self.all_cars:
+            car.backward(self.car_speed)
 
-    def spawn_car(self):
-        """Creates a new car just off the right edge of the screen."""
-        new_car = turtle.Turtle("square")
-        new_car.shapesize(stretch_len=2)
-        new_car.color(random.choice(COLORS))
-        new_car.penup()
-        new_car.speed(0)
-        new_car.setheading(180)
-        new_car.setx(self.x_start)
-        new_car.sety(random.randint(self.y_min, self.y_max))
-        self.cars.append(new_car)
+    def level_up(self):
+        self.car_speed += MOVE_INCREMENT

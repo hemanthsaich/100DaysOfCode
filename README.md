@@ -1,4 +1,4 @@
-# 100 Days of Code - The Complete Python Pro Bootcamp for 2023
+# 100 Days of Code - The Complete Python Pro Bootcamp
 
 ![image](https://github.com/hemanthsaich/100-Days-of-Code/assets/91429511/643a6f8b-ccd6-4c49-a709-40c436d5c5b1)
 
@@ -79,3 +79,21 @@ My solutions for the projects included in the [Python course by Dr. Angela Yu](h
 
 ### Day 24 - Files, Directories and Paths
 * [Solution: Mail Merge](day24/.)
+
+### Day 25 - Working with CSV Data and the Pandas Library
+* [Solution: U.S. States Game](day25/.)
+
+### Day 26 - List Comprehension and the NATO Alphabet
+* [Solution: NATO Alphabet](day26/.)
+
+### Day 27 - Tkinter, *args, **kwargs and Creating GUI Programs
+* [Solution: Mile to Kilometers Converter](day27/.)
+
+### Day 28 - Tkinter, Dynamic Typing and the Pomodoro GUI Application
+* [Solution: Pomodoro](day28/.)
+
+### Day 29 - Building a Password Manager GUI App with Tkinter
+* [Solution: Password Manager](day29/.)
+
+### Day 30 - Errors, Exceptions and JSON Data: Improving the Password Manager
+* [Solution: Password Manager Improved](day30/.)

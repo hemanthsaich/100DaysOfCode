@@ -103,3 +103,16 @@ My solutions for the projects included in the [Python course by Dr. Angela Yu](h
 
 ### Day 32 - Send Email (smtplib) & Manage Dates (datetime)
 * [Solution: Automated Birthday Wisher](day32/.)
+
+### Day 33 - API Endpoints & API Parameters - ISS Overhead Notifier
+* [Solution: ISS Overhead Notifier](day33/.)
+
+### Day 34 - API Practice - Creating a GUI Quiz App
+* [Solution: Quizzler](day34/.)
+
+### Day 35 - Keys, Authentication & Environment Variables: Send SMS
+* [Solution: SMS Rain Alert](day35/.)
+
+### Day 36 - Stock Trading News Alert Project
+* [Solution: SMS Stock News](day36/.)
+

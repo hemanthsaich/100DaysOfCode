@@ -119,7 +119,6 @@ My solutions for the projects included in the [Python course by Dr. Angela Yu](h
 ### Day 37 - Habit Tracking Project: API Post Requests & Headers
 * [Solution: Habit Tracking](day37/.)
 
-
 ### Day 38 - Workout Tracking Using Google Sheets
 * [Solution: Exercise Tracking](day38/.)
 * [Google Sheets Spreadsheet](https://docs.google.com/spreadsheets/d/16VI8oiRoGZtoiZhTpt8w6fBxzo9gjsMbazgU3rPslvA/edit?usp=sharing)
@@ -131,10 +130,3 @@ My solutions for the projects included in the [Python course by Dr. Angela Yu](h
 ### Day 40 - Capstone Part 2: Flight Club
 * [Solution: Flight Club](day40/.)
 * [Google Sheets Spreadsheet](https://docs.google.com/spreadsheets/d/1LvvQmQgI5E7nmIlH7NBpUqWiacESjh4TBvXCn0Z-SWU/edit#gid=1881580289)
-
-### Day 37 - Habit Tracking Project: API Post Requests & Headers
-* [Solution: Habit Tracking](day37/.)
-
-### Day 38 - Workout Tracking Using Google Sheets
-* [Solution: Exercise Tracking](day38/.)
-* [Google Sheets Spreadsheet](https://docs.google.com/spreadsheets/d/16VI8oiRoGZtoiZhTpt8w6fBxzo9gjsMbazgU3rPslvA/edit?usp=sharing)

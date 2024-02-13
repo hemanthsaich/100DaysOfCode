@@ -154,3 +154,25 @@ My solutions for the projects included in the [Python course by Dr. Angela Yu](h
 
 ### Day 48 - Selenium Webdriver Browser and Game Playing Bot
 * [Solution: Cookie Clicker](day48/.)
+
+### Day 49 - Automating Job Applications on LinkedIn
+* [Solution: Automated Job Application Bot](day49/.)
+
+### Day 50 - Auto Tinder Swiping Bot
+* [Solution: Auto Tinder Swiper](day50/.)
+
+### Day 51 - Internet Speed Twitter Complaint Bot
+* [Solution: Internet Speed Twitter Bot](day51/.)
+
+### Day 52 - Instagram Follower Bot
+* [Solution: Instagram Follower Bot](day52/.)
+
+### Day 53 - Web Scraping Capstone - Data Entry Job Automation
+* [Solution: Zillow Rental Research](day53/.)
+* [Google Sheets Spreadsheet](https://docs.google.com/spreadsheets/d/16w7MZFzsVSytvD05paYQ_jiEHN7DjY1oWfJhVUfMmb8/edit?usp=sharing)
+
+### Day 54 - Introduction to Web Development with Flask
+* [Solution: Flask Quickstart](day54/.)
+
+### Day 55 - HTML & URL Parsing in Flask and the Higher Lower Game
+* [Solution: Flask Higher Lower Game](day55/.)
